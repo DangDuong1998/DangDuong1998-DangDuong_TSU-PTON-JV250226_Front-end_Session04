@@ -1,0 +1,37 @@
+*{  
+    font-family: sans-serif;
+    width: 800px;
+}
+h2, .blue, .red, article {
+    margin-left: 10px;
+}
+h2{
+    color: orange;
+}
+.blue {
+    color: blue;
+}
+.custom01{
+    font-weight: bolder;
+}
+.red {
+    line-height: 28px;
+    color: red;
+}
+article {
+    border: 0px;
+    border-left: 5px;
+    border-style: solid;
+    border-color: orange;
+    padding: 6px;
+    padding-right: 30px;
+    background-color: rgb(255, 247, 176);
+}
+article p {
+    line-height: 28px;
+    margin: 5px;
+}
+.custom02 {
+    font-weight: bold;
+    color: orange;
+}
