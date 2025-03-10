@@ -1,0 +1,27 @@
+*{  
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+section{
+    line-height: 26px;
+    max-width:1000px ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    border: 0;
+    border-right: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+img{
+    width: 40%;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
