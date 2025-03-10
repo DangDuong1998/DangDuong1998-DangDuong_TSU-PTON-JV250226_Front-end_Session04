@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        section{
+            font-family: sans-serif;
+            max-width: 580px;
+            padding: 10px;
+            background-color: rgba(209, 209, 209, 0.26);
+        }
+        form{
+            padding-top: 20px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border-radius: 10px;
+            background-color: white;
+            max-width: 580px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+            display: flex;
+            flex-direction: column;
+          
+        }
+        label{
+            color: rgb(88, 88, 88);
+        }
+        h1{
+            text-align: center;
+            font-size: 35px;
+        }
+        input{
+            border: 1px;
+            border-style: solid ;
+            border-radius: 3px;
+            border-color: rgb(179, 179, 179);
+            height: 35px;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        [type="file"]{
+            padding-left: 7px;
+            padding-top: 7px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        textarea{
+            border: 1px;
+            border-style: solid ;
+            border-color: rgb(179, 179, 179);
+            border-radius: 3px;
+            height: 100px;
+            margin-bottom: 15px;
+            resize: none;
+          
+        }
+        [type="submit"]{
+            height:  35px;
+            max-width: 550px;
+            border-style: none;
+            border-radius: 3px;
+            color: white;
+            background-color: rgb(53, 53, 53);
+        }
+        [type="submit"]:hover{
+            cursor: pointer;
+        }
+        [type="submit"]:active{
+            background-color: rgb(32, 32, 32);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form action="http://formset.com" method="post">
+            <h1>Tuyển dụng</h1>
+            <label for="name_id">Họ và tên:</label>
+            <input type="text" name="name_n" id="name_id">
+            <label for="email_id">Email:</label>
+            <input type="email" name="email_n" id="email_id">
+            <label for="phone_id">Số diện thoại:</label>
+            <input type="number" name="phne_n" id="phone_id">
+            <label for="CV_id">CV:</label>
+            <input type="file" name="cv_n" id="cv_id">
+            <label for="mess_id">Tin nhắn:</label>
+            <textarea name="mess_n" id="mess_id"></textarea>
+            <input type="submit" value="Gửi">
+        </form>
+    </section>
+</body>
+</html>
