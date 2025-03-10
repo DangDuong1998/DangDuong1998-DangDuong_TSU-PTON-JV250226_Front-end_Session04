@@ -1,0 +1,26 @@
+body {
+    display: flex;
+   }
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding-top:10px ;
+        width: 170px;
+        background-color: rgb(224, 224, 224);
+        margin-right: 30px;
+    }
+    nav a:first-child {
+        padding: 10px;
+        background-color: rgb(3, 181, 0);
+    }
+   nav a {
+    padding: 10px;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+  .home {   
+    color: rgb(226, 226, 226);
+  }
